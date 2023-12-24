@@ -8,4 +8,5 @@ npm i
 npm run build
 mkdir dist/public
 cp ../client/dist/* dist/public
-NODE_ENV=production node ./dist/index.js
+STAGE=dev node ./dist/index.js
+STAGE=prod
